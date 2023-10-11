@@ -1,13 +1,10 @@
 import F1 from './Assets/Fashion1.jpg'
-import F2 from './Assets/Fashion2.jpg' //
-import F3 from './Assets/Fashion3.jpg' //
 import F4 from './Assets/Fashion4.jpg'
 import F5 from './Assets/Fashion5.jpg'
 
 import Lap1 from './Assets/laptop.jpg'
 import Lap2 from './Assets/Laptop2.jpg'
-import Lap3 from './Assets/Laptop3.jpg'//
-import Lap4 from './Assets/Laptop4.jpg'
+
 
 import mob1 from './Assets/mob1.jpg'
 import mob2 from './Assets/mob2.jpg'

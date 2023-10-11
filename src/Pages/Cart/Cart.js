@@ -31,7 +31,7 @@ function Cart() {
       {CartFilteredArr.length == 0 ? (
         <div className="text-center">
         <h2 className="text-danger text-center pt-5 pb-3">Your Cart Is Empty</h2>
-      <Link to="/submission-Project-1" className="text-center"><button className="btn btn-success btn-lg">Go to Shop</button></Link>
+      <Link to="/" className="text-center"><button className="btn btn-success btn-lg">Go to Shop</button></Link>
         </div>
       ):
       (      

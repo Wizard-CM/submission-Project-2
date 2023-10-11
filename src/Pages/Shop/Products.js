@@ -15,7 +15,7 @@ import Footer from "../../Components/Footer/Footer";
 function Products({ SearchButtonHandler }) {
   const [query, setQuery] = useSearchParams();
   const QueryData = query.get("q");
-  console.log(QueryData);
+  // console.log(QueryData);
   const { cartItem, AddtoCart, RemovefromCart } =
     useContext(ShopContextWrapper);
   const [inputData, setInputdata] = useState();
