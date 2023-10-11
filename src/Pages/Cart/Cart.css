@@ -1,0 +1,38 @@
+.cartItem-con {
+    padding-top: 40px;
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+}
+.cartItem-con p{
+    font-size: 1rem;
+}
+.cartItem-con .IndiPrice{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.cartItem-con img{
+    border-radius: 20px;
+    width: 20vw;
+    height: 20vw;
+}
+.addSubt{
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.add{
+    background-color: rgb(241, 35, 39);
+}
+.subt{
+    background-color: rgb(46, 46, 255);
+}
+.totaling {
+    padding: 0 100px;
+}
+.totaling h4{
+   font-size: 1.5rem;
+}

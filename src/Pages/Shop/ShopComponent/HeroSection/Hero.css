@@ -1,0 +1,62 @@
+
+#home {
+    padding-top: 30px; /* Because NavBar is fixed , and if padding is not given , this section will overlap with nav section*/
+  }
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    min-height: 730px;
+    position: relative;
+  }
+  .home .home-banner-text{
+    color: #272727 !important;
+    text-align: center;
+    min-height: 200px;
+    width: fit-content;
+    padding: 50px;
+  
+    /* Main Properties for Glass Morphism Effect */
+    background-color: rgba(255, 255, 255, 0.155);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+  
+    /* Properties for customization of  Glass Morphism Effect  */
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: -20px -20px 20px rgba(0, 0, 0, 0.7),10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .home .home-banner-1 {
+    background-image: url("../../../../Assets/pexels-andrea-piacquadio-3755706.jpg");
+  }
+  .home .home-banner-2 {
+    background-image: url("../../../../Assets/pexels-sama-bairamova-18386431.jpg");
+  }
+  .home .glass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #272727;
+  }
+  /* Modifying Navigator */
+  .home .carousel-indicators [data-bs-target] {
+    background-color: rgb(36, 25, 255);
+    width: 2vw;
+    height: 0.313rem;
+  }
+  
+  /* Modifying Arrows */
+  .home .carousel-control-prev-icon, /*First making default arrow's background transparent and making new custom arrow class visible*/
+  .home .carousel-control-next-icon {
+    background: transparent;
+  }
+  .home .customized-slider-icon {
+    font-size: 2vw;
+    font-weight: 700;
+    color: rgb(71, 38, 255);
+  }
+  

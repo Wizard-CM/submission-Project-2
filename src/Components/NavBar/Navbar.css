@@ -1,0 +1,31 @@
+
+header .fixed-top{
+  }
+
+  header .navbar .navbar-nav .nav-item .nav-link{
+    text-align: center;
+    transition: all 0.3s ease-in;
+  }
+  header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: red;
+  }
+  /* Unncessary box shadow of the hamburger icon */
+  header .navbar .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar .navbar-nav .nav-item .nav-link i{
+    font-size: 2rem;
+    color: red;
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item .nav-link p{
+    font-size: 1rem;
+    position: absolute;
+    top: -14px;
+    left: 28px;
+    color: orange;
+    font-weight: 900;
+    background-color: black;
+    padding: 4px 8px;
+    border-radius: 50%;
+  }
